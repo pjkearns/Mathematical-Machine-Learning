@@ -1,8 +1,9 @@
 # Robust Principal Component Analysis via Principle Component Pursuit (PCP)
 
-In this demo, you will implement the \emph{Principal Component Pursuit} (PCP) algorithm for robust principal component analysis using the alternating direction method of multipliers (ADMM) framework. Recall that PCA performs a low-rank approximation to the data matrix $X \in \bR^{D \times N}$, which we formulated as
-\begin{eqnarray*}
-    \hat{L} &=& \argmin_{L \in \bR^{D \times N}} \norm{X - L}_{F}^{2} \\
+This demo implements the *Principal Component Pursuit* (PCP) algorithm for robust principal component analysis using the alternating direction method of multipliers (ADMM) framework. 
+
+PCA performs a low-rank approximation to the data matrix *X*, formulated as
+    *L = arg min ||X - L||*{2}
     \text{subject to} && \text{rank}(L) \leq r.
 \end{eqnarray*}
 The above formulation assumes we know an upper bound on the desired rank. If this value is unknown, we could solve the alternative formulation
