@@ -2,15 +2,8 @@
 
 This demo implements the *Principal Component Pursuit* (PCP) algorithm for robust principal component analysis using the alternating direction method of multipliers (ADMM) framework. 
 
-PCA performs a low-rank approximation to the data matrix *X*, formulated as
-    *L = arg min ||X - L||*{2}
-    \text{subject to} && \text{rank}(L) \leq r.
-\end{eqnarray*}
-The above formulation assumes we know an upper bound on the desired rank. If this value is unknown, we could solve the alternative formulation
-\begin{eqnarray*}
-    \hat{L} &=& \argmin_{L \in \bR^{D \times N}} \; \text{rank}(L) \\
-    \text{subject to} && \norm{X - L}_{F}^{2} \leq \varepsilon
-\end{eqnarray*}
+PCA performs a low-rank approximation to the data matrix *X*, but assumes we know an upper bound on the desired rank. If this value is unknown, we could solve the alternative formulation
+
 for some small value of $\varepsilon$ that determines our reconstruction error. Unfortunately, as with minimizing the number of nonzero elements in a vector, minimizing the rank of a matrix is a non-convex problem that is NP-hard to solve. The solution is to again use a convex relaxation! Recall that the relaxation of $\norm{\cdot}_{0}$ in the Lasso is $\norm{\cdot}_{1}$, i.e., we went from minimizing the \emph{total} number of nonzero elements to minimizing the \emph{sum} of absolute values.
 In the case of matrices, we can view the rank as the total number of directions in which there is a nonzero component, which can be expressed as
 \begin{equation*}
