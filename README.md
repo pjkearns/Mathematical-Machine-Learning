@@ -1,6 +1,4 @@
 # Mathematical Machine Learning 
-Projects demonstrating the math behind various ML concepts
-
 Course: ECE 510 - Portland State University
 
 Instructor: John Lipor
