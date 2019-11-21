@@ -5,7 +5,7 @@ Instructor: John Lipor
 
 # Contents:
 ### 1. Basic Concepts
-Short scripts to demonstrate fundamental ideas in ML like various gradient descent, regression, and eigendecomposition methods. 
+Fundamental ideas in ML like various gradient descent, regression, and eigendecomposition methods. 
 
 ### 2. Spectral Clustering and KNN
 Classify synthetic or Iris data.
