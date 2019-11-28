@@ -22,7 +22,7 @@ Separate objects from background in video.
 ### 6. Low Rank Matrix Completion
 Recover images from sparse version.
 
-### 7. 3D Image Reconstruction - EDIT code file
+### 7. 3D Image Reconstruction
 Turn lighting vectors and shadow data into 3D reconstruction of surface.
 
 ### 8. Compressed Sensing - EDIT code file
