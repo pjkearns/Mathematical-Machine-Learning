@@ -28,6 +28,5 @@ Turn lighting vectors and shadow data into 3D reconstruction of surface.
 ### 8. Compressed Sensing - EDIT code file
 Recover a subsampled audio signal using LS, IRLS, or LASSO. 
 
-### 9. Dictionary Learning - EDIT
-Learn a dictionary of atoms for representing a given signal. Done with images.
-
+### 9. Dictionary Learning
+Learn a dictionary of atoms for representing a given signal and reconstruct original or others. Use for image compression.
