@@ -16,7 +16,7 @@ Classify the MNIST dataset.
 ### 4. Kernel Ridge Regression
 Classify synthetic or Iris data.
 
-### 5. Robust PCA via PCP/ADMM - EDIT md file
+### 5. Robust PCA via PCP/ADMM
 Separate objects from background in video.
 
 ### 6. Low Rank Matrix Completion
