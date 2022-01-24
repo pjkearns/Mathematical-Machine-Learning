@@ -1,1 +1,1 @@
-# Examples of spectral cluxtering, KNN
+# Examples of spectral clustering, KNN
